@@ -1,0 +1,357 @@
+/** @format */
+
+* {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  font-weight: 1000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+  position: absolute;
+  left: 3%;
+  height: 100%;
+  width: 180px;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.links {
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  text-align: right;
+  padding-top: 15px;
+  height: 30px;
+}
+
+a#top-link {
+  font-size: 12px;
+  padding-right: 3%;
+  padding-left: 1%;
+}
+
+a#top-link:hover {
+  opacity: 0.7;
+}
+
+.image-one {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  top: 55px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.193);
+}
+
+#btc {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 280px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #008adb;
+  width: 100%;
+  border-radius: 5px;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: #40a7ed;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4caf50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before,
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #ef3b3a;
+}
+body {
+  background: #76b852; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #76b852, #8dc26f);
+  background: -moz-linear-gradient(right, #76b852, #8dc26f);
+  background: -o-linear-gradient(right, #76b852, #8dc26f);
+  background: linear-gradient(to left, #76b852, #8dc26f);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.second-part {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  height: 1000px;
+}
+
+.first-image {
+  position: absolute;
+  width: 80%;
+  height: 30%;
+  top: 1%;
+  left: 10%;
+  right: 10%;
+  background-color: #efefef;
+}
+
+.texti {
+  position: absolute;
+  height: 80%;
+  top: 10%;
+  width: 33.3333333%;
+  border-right: 1px solid #666666;
+  text-align: center;
+}
+
+.textii {
+  position: absolute;
+  height: 80%;
+  top: 10%;
+  left: 33.3333333%;
+  width: 33.3333333%;
+  border-right: 1px solid #666666;
+  text-align: center;
+}
+
+.textiii {
+  position: absolute;
+  height: 80%;
+  top: 10%;
+  left: 66.6666667%;
+  width: 33.3333333%;
+  text-align: center;
+}
+
+hr {
+  opacity: 0.3;
+}
+
+.contain {
+  width: 50%;
+  line-height: 25px;
+  font-size: 12px;
+  position: absolute;
+  right: 25%;
+  left: 25%;
+  margin-top: 14px;
+}
+
+.tradebtn {
+  position: absolute;
+  top: 33%;
+  left: 10%;
+  height: 50px;
+  text-align: center;
+  width: 200px;
+  background-color: none;
+}
+
+a#startnow {
+  position: absolute;
+  left: 0%;
+  border-radius: 10px;
+  color: white;
+  padding: 17px 40px 17px 40px;
+  background-color: #008adb;
+}
+
+a#startnow:hover {
+  background-color: #40a7e4;
+}
+
+.line {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  background-color: #eaf4fd;
+  top: 10%;
+}
+
+.grid {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  height: 600px;
+  background-color: none;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  background-color: #fcd48b;
+}
+
+#secondpic {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  height: 50%;
+  object-fit: contain;
+  width: 40%;
+}
+
+.text-section {
+  position: absolute;
+  left: 3%;
+  top: 15%;
+  line-height: 50px;
+  width: 40%;
+  height: 75%;
+}
+
+#contact {
+  position: absolute;
+  top: 17%;
+  right: -20%;
+}
+
+.imag {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 3%;
+  top: 10%;
+}
+
+.thirdpart {
+  position: absolute;
+  top: 3200px;
+  height: 500px;
+  width: 100%;
+  background-color: #333333;
+}
+
+.anotherphoto {
+  position: absolute;
+  width: 40%;
+  height: 50%;
+  right: 5%;
+  top: 5%;
+}
+
+.bigbox {
+  position: absolute;
+  width: 20%;
+  height: 350px;
+  top: 115%;
+  border-radius: 15px;
+  left: 5%;
+  background-color: rgb(241, 241, 241);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.138);
+}
+
+.bigboxi {
+  position: absolute;
+  width: 20%;
+  height: 350px;
+  top: 115%;
+  border-radius: 15px;
+  left: 26.8%;
+  background-color: rgb(241, 241, 241);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.138);
+}
+
+.bigboxiv {
+  position: absolute;
+  width: 20%;
+  height: 350px;
+  top: 115%;
+  border-radius: 15px;
+  left: 48.8%;
+  background-color: rgb(241, 241, 241);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.138);
+}
+
+.bigboxii {
+  position: absolute;
+  width: 20%;
+  height: 350px;
+  top: 115%;
+  border-radius: 15px;
+  left: 70.8%;
+  background-color: rgb(241, 241, 241);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.138);
+}
